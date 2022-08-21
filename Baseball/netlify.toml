@@ -15,3 +15,10 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+[module.inports]
+  [path:] github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms main
+  [path:]  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main
+  [path:]  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal main
+  [path:] github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 main
+
