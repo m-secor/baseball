@@ -68,31 +68,6 @@ $$
 
 ---
 
-## Fragments
-
-Make content appear incrementally
-
-```
-{{%/* fragment */%}} One {{%/* /fragment */%}}
-{{%/* fragment */%}} **Two** {{%/* /fragment */%}}
-{{%/* fragment */%}} Three {{%/* /fragment */%}}
-```
-
-Press `Space` to play!
-
-{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-
----
-
-A fragment can accept two optional parameters:
-
-- `class`: use a custom style (requires definition in custom CSS)
-- `weight`: sets the order in which a fragment appears
-
----
-
 ## Speaker Notes
 
 Add speaker notes to your presentation
