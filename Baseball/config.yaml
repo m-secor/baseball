@@ -41,3 +41,12 @@ markup:
   goldmark:
     renderer:
       unsafe: yes
+      
+module:
+  imports:
+
+  -path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms main
+  -path:  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main
+  -path:  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal main
+  -path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 main
+
